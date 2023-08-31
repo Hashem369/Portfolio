@@ -1,0 +1,35 @@
+header {
+    height: calc(100vh - 50px);
+    position: relative;
+    background-image: url("../images/nature.jpg");
+    background-size: cover;
+    
+}
+header h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: bold;
+    color: var(--main-color);
+    width: max-content;
+    background-color: blueviolet;
+    border-radius: 5px 5px;
+}
+
+/* start main*/
+main {
+    padding: var(--main-padding);
+    background-color: var(--sec-background-color);
+
+}
+main h2 {
+    color: var(--sec-color);
+}
+main p {
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: large;
+    color: rgb(149, 67, 204);
+}

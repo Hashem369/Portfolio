@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+nav ul li:first-child {
+    background-color: transparent;
+}
+nav ul li:last-child {
+    background-color: var(--sec-background-color);
+}
+main {
+    height: calc(100vh - 108px);
+    padding: 20px;
+    background-color: #444;
+}
+main h2 {
+    color: var(--main-color);
+}
+main p {
+    margin-top: 20px;
+    padding-left: 20px;
+    color: #9d1bf3;
+    line-height: 1.2;
+    font-size: large;
+}
+@media (min-width: 767px) {
+    main {
+        padding: 60px;
+    }
+}

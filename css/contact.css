@@ -1,0 +1,39 @@
+nav ul li:first-child {
+    background-color: transparent;
+}
+nav ul li:nth-child(3) {
+    background-color: var(--sec-background-color);
+}
+main {
+    height: calc(100vh - 108px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    
+    background-color: #444;
+}
+main .email p {
+    font-weight: bold;
+    color: var(--main-color);
+}
+main .email a {
+    color: lawngreen;
+}
+main .social {
+    text-align: center;
+}
+main .social p {
+    font-weight: bold;
+    color: var(--main-color);
+}
+main .social i:nth-child(2){
+    color: red;
+}
+main .social i:nth-child(3){
+    color: rgb(21, 160, 253);
+}
+main .social i:nth-child(4) {
+    color: rgb(0, 255, 255);
+}
